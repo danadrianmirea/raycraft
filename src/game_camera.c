@@ -13,7 +13,7 @@ GameCamera *CreateGameCamera()
     gameCamera->camera.target = (Vector3){0};
     gameCamera->camera.up = (Vector3){0.0f, 1.0f, 0.0f};
     gameCamera->camera.fovy = 60.0f;
-    gameCamera->camera.type = CAMERA_PERSPECTIVE;
+    gameCamera->camera.projection = CAMERA_PERSPECTIVE;
     gameCamera->rotation = (Vector3){0};
 
     return gameCamera;

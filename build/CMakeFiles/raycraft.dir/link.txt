@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\raycraft.dir/objects.a
+D:\msys64\mingw64\bin\ar.exe qc CMakeFiles\raycraft.dir/objects.a @CMakeFiles\raycraft.dir\objects1.rsp
+d:\msys64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\raycraft.dir/objects.a -Wl,--no-whole-archive -o raycraft.exe -Wl,--out-implib,libraycraft.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\raycraft.dir\linkLibs.rsp

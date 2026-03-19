@@ -1,0 +1,44 @@
+[
+{
+  "directory": "D:/adi/src/raylib/raycraft/build",
+  "command": "d:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/raycraft.dir/includes_C.rsp -g -std=c99 -o CMakeFiles\\raycraft.dir\\src\\main.c.obj -c D:\\adi\\src\\raylib\\raycraft\\src\\main.c",
+  "file": "D:/adi/src/raylib/raycraft/src/main.c",
+  "output": "CMakeFiles/raycraft.dir/src/main.c.obj"
+},
+{
+  "directory": "D:/adi/src/raylib/raycraft/build",
+  "command": "d:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/raycraft.dir/includes_C.rsp -g -std=c99 -o CMakeFiles\\raycraft.dir\\src\\game_camera.c.obj -c D:\\adi\\src\\raylib\\raycraft\\src\\game_camera.c",
+  "file": "D:/adi/src/raylib/raycraft/src/game_camera.c",
+  "output": "CMakeFiles/raycraft.dir/src/game_camera.c.obj"
+},
+{
+  "directory": "D:/adi/src/raylib/raycraft/build",
+  "command": "d:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/raycraft.dir/includes_C.rsp -g -std=c99 -o CMakeFiles\\raycraft.dir\\src\\game_mouse.c.obj -c D:\\adi\\src\\raylib\\raycraft\\src\\game_mouse.c",
+  "file": "D:/adi/src/raylib/raycraft/src/game_mouse.c",
+  "output": "CMakeFiles/raycraft.dir/src/game_mouse.c.obj"
+},
+{
+  "directory": "D:/adi/src/raylib/raycraft/build",
+  "command": "d:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/raycraft.dir/includes_C.rsp -g -std=c99 -o CMakeFiles\\raycraft.dir\\src\\player.c.obj -c D:\\adi\\src\\raylib\\raycraft\\src\\player.c",
+  "file": "D:/adi/src/raylib/raycraft/src/player.c",
+  "output": "CMakeFiles/raycraft.dir/src/player.c.obj"
+},
+{
+  "directory": "D:/adi/src/raylib/raycraft/build",
+  "command": "d:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/raycraft.dir/includes_C.rsp -g -std=c99 -o CMakeFiles\\raycraft.dir\\src\\world\\perlin.c.obj -c D:\\adi\\src\\raylib\\raycraft\\src\\world\\perlin.c",
+  "file": "D:/adi/src/raylib/raycraft/src/world/perlin.c",
+  "output": "CMakeFiles/raycraft.dir/src/world/perlin.c.obj"
+},
+{
+  "directory": "D:/adi/src/raylib/raycraft/build",
+  "command": "d:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/raycraft.dir/includes_C.rsp -g -std=c99 -o CMakeFiles\\raycraft.dir\\src\\world\\worldgeneration.c.obj -c D:\\adi\\src\\raylib\\raycraft\\src\\world\\worldgeneration.c",
+  "file": "D:/adi/src/raylib/raycraft/src/world/worldgeneration.c",
+  "output": "CMakeFiles/raycraft.dir/src/world/worldgeneration.c.obj"
+},
+{
+  "directory": "D:/adi/src/raylib/raycraft/build",
+  "command": "d:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/raycraft.dir/includes_C.rsp -g -std=c99 -o CMakeFiles\\raycraft.dir\\src\\world\\worldmodel.c.obj -c D:\\adi\\src\\raylib\\raycraft\\src\\world\\worldmodel.c",
+  "file": "D:/adi/src/raylib/raycraft/src/world/worldmodel.c",
+  "output": "CMakeFiles/raycraft.dir/src/world/worldmodel.c.obj"
+}
+]

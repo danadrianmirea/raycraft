@@ -13,7 +13,7 @@ static Vector2 mouseMovement = (Vector2){0};
 void UpdateMouseMovement()
 {
     Vector2 currentMousePosition = GetMousePosition();
-    mouseMovement = Vector2MultiplyV(
+    mouseMovement = Vector2Multiply(
         Vector2Subtract(currentMousePosition, previousMousePosition),
         (Vector2){SMOOTHNESS * SENSITIVITY, SMOOTHNESS * SENSITIVITY});
     previousMousePosition = currentMousePosition;

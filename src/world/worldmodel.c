@@ -251,11 +251,11 @@ Model GetWorldModel(int *world)
     RL_FREE(texcoords);
     RL_FREE(normals);
 
-    rlLoadMesh(&mesh, false);
+    UploadMesh(&mesh, false);
 
     Model worldModel = LoadModelFromMesh(mesh);
 
-    worldModel.materials[0].maps[MAP_DIFFUSE].texture = LoadTexture("resources/grass.png");
+    worldModel.materials[0].maps[MATERIAL_MAP_ALBEDO].texture = LoadTexture("resources/grass.png");
 
     return worldModel;
 }

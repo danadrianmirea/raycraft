@@ -50,7 +50,7 @@ int main(void)
             }
             EndMode3D();
 
-            // DrawText(FormatText("x: %f\ny: %f\nz: %f", player->position.x, player->position.y, player->position.z), 10, 10, 16, WHITE);
+            // DrawText(TextFormat("x: %f\ny: %f\nz: %f", player->position.x, player->position.y, player->position.z), 10, 10, 16, WHITE);
 
             float x = player->position.x;
             float y = player->position.y;
@@ -61,7 +61,7 @@ int main(void)
 
             Vector3 playerWorldPosition = (Vector3){round(x), round(y), round(z)};
 
-            DrawText(FormatText("x: %f\ny: %f\nz: %f", playerWorldPosition.x, playerWorldPosition.y, playerWorldPosition.z), 10, 10, 16, WHITE);
+            DrawText(TextFormat("x: %f\ny: %f\nz: %f", playerWorldPosition.x, playerWorldPosition.y, playerWorldPosition.z), 10, 10, 16, WHITE);
 
             DrawFPS(1920 / 2 - 90, 10);
         }

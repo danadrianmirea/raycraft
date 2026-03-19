@@ -1,0 +1,3 @@
+D:/adi/src/raylib/raycraft/build/CMakeFiles/raycraft.dir
+D:/adi/src/raylib/raycraft/build/CMakeFiles/edit_cache.dir
+D:/adi/src/raylib/raycraft/build/CMakeFiles/rebuild_cache.dir
